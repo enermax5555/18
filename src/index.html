@@ -59,7 +59,7 @@
         </footer>
       </div>
 
-      <div class="card">
+      <div class="card" id="catch">
         <div class="card-content">
           <p class="title">
             “There are two hard things in computer science: cache invalidation,
@@ -83,5 +83,12 @@
         </footer>
       </div>
     </div>
-  </body>
+ 
+  <script>
+  let element = document.getElementById('catch');
+  	setTimeout(function () {
+    element.style.display="none";
+}, 3000);
+  </script>
+   </body>
 </html>
